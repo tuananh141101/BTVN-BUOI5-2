@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+body {background-color: white;}
+a {text-decoration: none;}
+ul {list-style: none;}
+.site-menu {
+    width: 200px;
+    background-color: rgb(168, 106, 106);
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #f0f0f0;
+}
+.site-menu ul {
+    padding: 0.7rem 0 0.7rem 0;
+    width: 100%;
+}
+.site-menu ul li {
+    padding: 10px 10px;   
+}
+/* THẺ LI THỨ 1 */
+.site-menu ul li:nth-child(1) span {
+    color: red;
+    padding-left: 55px;
+    display: none
+}
+.site-menu ul li:nth-child(1) .child-item1 {
+    display: none;
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.site-menu ul li:nth-child(1) .child-item1 li {padding-left: 10px;}
+.site-menu ul li:nth-child(1):hover .child-item1{display: block;} 
+.site-menu ul li:nth-child(1) .child-item1 .child-item1-1 {
+    position: absolute;
+    background-color: #f0f0f0;
+    top: 0;
+    left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: none;
+}
+.site-menu ul li:nth-child(1) .child-item1 li:nth-child(1):hover .child-item1-1 {display: block;}
+.site-menu ul li:nth-child(1):hover span {display: inline-block;}
+.site-menu ul li:hover {
+    background-color: purple;
+}
+/* THẺ LI THỨ 2 */
+.site-menu ul li:nth-child(2) span {
+    color: red;
+    padding-left: 29px;
+    display: none;
+}
+.site-menu ul li:nth-child(2) .child-item1 {
+    display: none;
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 0;
+    left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.site-menu ul li:nth-child(2) .child-item1 li {padding-left: 10px;}
+.site-menu ul li:nth-child(2):hover .child-item1{display: block;} 
+.site-menu ul li:nth-child(2) .child-item1 .child-item1-1 {
+    position: absolute;
+    background-color: #f0f0f0;
+    top: 0;
+    left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: none;
+}
+.site-menu ul li:nth-child(2) .child-item1 li:nth-child(2):hover .child-item1-1 {display: block;}
+.site-menu ul li:nth-child(2):hover span {display: inline-block;}
+.site-menu ul li:hover {
+    background-color: purple;
+}
+/* THẺ LI THỨ 3 */
+.site-menu ul li:nth-child(3) span {
+    color: red;
+    padding-left: 29px;
+    display: none;
+}
+.site-menu ul li:nth-child(3):hover span {display: inline-block;}
+/* THẺ LI THỨ 4 */
+.site-menu ul li:nth-child(4) span {
+    color: red;
+    padding-left: 69px;
+    display: none;
+}
+.site-menu ul li:nth-child(4):hover span {display: inline-block;}
+/* THẺ LI THỨ 5 */
+.site-menu ul li:nth-child(5) span {
+    color: red;
+    padding-left: 81px;
+    display: none;
+}
+.site-menu ul li:nth-child(5):hover span {display: inline-block;}
+/* THẺ LI THỨ 6 */
+.site-menu ul li:nth-child(6) span {
+    color: red;
+    padding-left: 66px;
+    display: none;
+}
+.site-menu ul li:nth-child(6):hover span {display: inline-block;}
+/* THẺ LI THỨ 7 */
+.site-menu ul li:nth-child(7) span {
+    color: red;
+    padding-left: 64px;
+    display: none;
+}
+.site-menu ul li:nth-child(7):hover span {display: inline-block;}
